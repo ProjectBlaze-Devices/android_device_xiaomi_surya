@@ -125,11 +125,6 @@ PRODUCT_PACKAGES += \
     charger_res_images
 
 # Device-specific settings
-PRODUCT_PACKAGES += \
-    XiaomiParts
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/parts/init.xiaomiparts.rc:$(TARGET_COPY_OUT_PRODUCT)/etc/init/init.xiaomiparts.rc
 
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.lcd.cabc_mode=1
