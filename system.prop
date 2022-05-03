@@ -53,3 +53,6 @@ ro.recovery.ui.margin_height=48
 
 # WiFi
 wifi.interface=wlan0
+
+# Keyguard
+persist.wm.enable_remote_keyguard_animation=0
