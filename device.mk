@@ -108,6 +108,8 @@ PRODUCT_PACKAGES += \
 # Camera
 $(call inherit-product-if-exists, device/xiaomi/surya-miuicamera/config.mk)
 
+# GCam GO
+$(call inherit-product-if-exists, vendor/gcgop/config.mk)
 
 # Dex/ART optimization
 PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
