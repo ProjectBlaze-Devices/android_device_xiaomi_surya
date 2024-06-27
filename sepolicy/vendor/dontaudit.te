@@ -26,3 +26,9 @@ dontaudit vendor_netmgrd vendor_diag_device:chr_file rw_file_perms;
 dontaudit vendor_qti vendor_diag_device:chr_file rw_file_perms;
 
 dontaudit vendor_sensors_qti vendor_diag_device:chr_file rw_file_perms;
+
+dontaudit {
+  hal_audio_default
+  hal_camera_default
+  rild
+} default_prop:file r_file_perms;
