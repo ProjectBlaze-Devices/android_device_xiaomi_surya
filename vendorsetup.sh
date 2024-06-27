@@ -1,6 +1,6 @@
 # kernel/xiaomi
 rm -rf kernel/xiaomi
-git clone -b arise https://github.com/ProjectBlaze-Devices/kernel_xiaomi_surya.git kernel/xiaomi/surya --depth=1
+git clone -b lineage-21 https://github.com/LineageOS/android_kernel_xiaomi_surya.git kernel/xiaomi/surya --depth=1
 
 # vendor/xiaomi
 rm -rf vendor/xiaomi
