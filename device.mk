@@ -29,6 +29,9 @@ $(call inherit-product, device/xiaomi/surya/parts/parts.mk)
 # Inherit surya firmware images
 $(call inherit-product, firmware/xiaomi/surya/Android.mk)
 
+# MiuiCamera 
+$(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)
+
 # ANT+
 PRODUCT_PACKAGES += \
     AntHalService-Soong \
