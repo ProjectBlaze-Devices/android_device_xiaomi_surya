@@ -29,6 +29,9 @@ $(call inherit-product, firmware/xiaomi/surya/Android.mk)
 # MiuiCamera 
 $(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)
 
+# BCR 
+$(call inherit-product-if-exists, vendor/bcr/bcr.mk)
+
 # ANT+
 PRODUCT_PACKAGES += \
     AntHalService-Soong \
